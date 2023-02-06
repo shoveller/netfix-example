@@ -1,0 +1,33 @@
+/*@import "jquery-ui.css";*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer component {
+    /* Corner radius */
+    .ui-corner-all,
+    .ui-corner-top,
+    .ui-corner-left,
+    .ui-corner-tl {
+        @apply rounded-tl-lg;
+    }
+    .ui-corner-all,
+    .ui-corner-top,
+    .ui-corner-right,
+    .ui-corner-tr {
+        @apply rounded-tr-lg;
+    }
+    .ui-corner-all,
+    .ui-corner-bottom,
+    .ui-corner-left,
+    .ui-corner-bl {
+        @apply rounded-bl-lg;
+    }
+    .ui-corner-all,
+    .ui-corner-bottom,
+    .ui-corner-right,
+    .ui-corner-br {
+        @apply rounded-br-lg;
+    }
+}
